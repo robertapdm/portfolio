@@ -8,11 +8,10 @@ function Inicio(){
         <section>
         <S.Section>
         <S.Div>
-        <S.H1>Bem-vindos ao meu portfólio.</S.H1>
-        <S.H2><S.Span>Roberta Mota</S.Span> Desenvolvedora Web Front-End.
-        </S.H2>
+        <S.H1>Olá, sou <S.Span> Roberta Mota</S.Span></S.H1>
+        <S.H2>Seja bem-vindo ao meu portfólio! Desenvolvedora web front-end explorando a web com projetos inovadores e comprometida com a excelência.</S.H2>
         <S.DivButton>
-            <S.Button>
+            <S.Button type="submit">
                 Projetos
             </S.Button>
             <S.Button>

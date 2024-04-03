@@ -35,15 +35,15 @@ align-items: center;
 
 `
 export const H1 = styled.h1`
-width: 300px;
+width: 500px;
 font-size: 2rem;
-text-align: center;
+text-align: left;
 margin: 15px;
 `
 export const H2 = styled.h1`
-width: 300px;
-font-size: 1.5;
-text-align: center;
+width: 500px;
+font-size: 1.1rem;
+text-align: left;
 margin: 15px;
 `
 export const Span = styled.span`
@@ -52,15 +52,15 @@ text-shadow: #000000 3px 2px 1px;
 font-size: 3rem;
 `
 export const DivButton = styled.div`
-width: 400px;
+width: 500px;
 height: 50px;
 display: flex;
-justify-content: space-around;
-align-items: center;
+justify-content: space-evenly;
+align-items: flex-start;
 margin: 25px;
 `
 export const Button = styled.button`
-width: 180px;
+width: 200px;
 height: 35px;
 background-color: #baff66;
 color: #30374E;
