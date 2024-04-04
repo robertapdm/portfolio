@@ -19,11 +19,10 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-bottom: 50px;
-background-color: red;
 `
 export const Card = styled.div`
 width: 60%;
-height: 70vh;
+height: 55vh;
 display: flex;
 flex-direction: column;
 justify-content: center;
