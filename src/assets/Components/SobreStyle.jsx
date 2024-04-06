@@ -48,6 +48,9 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 
+@media screen and (max-width:359px) {
+height: 50vh;
+}
 `
 export const Hr =  styled.hr`
 width: 3px;
@@ -68,8 +71,9 @@ flex-wrap: wrap;
 justify-content: space-around;
 align-items: center;
 
-@media screen and (max-width:768px) {
-    width: 100%;
+@media screen and (max-width:359px) {
+    width: 90vw;
+
 }
 `
 export const Card = styled.div`
@@ -87,8 +91,8 @@ transition: all 0.3s;
     scale: 1.1;
 }
 
-@media screen and (max-width:768px) {
-    width: 75px;
+@media screen and (max-width:359px) {
+    width: 60px;
     margin-bottom: 30px;
 }
 `

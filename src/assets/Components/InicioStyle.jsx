@@ -6,8 +6,12 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 
-@media screen and (max-width: 768px) {
-height: 50vh;
+@media screen and (max-width: 359px){
+height: 100vh;
+}
+
+@media screen and (min-width:360px) and (max-width: 768px) {
+height: 80vh;
 flex-direction: column;
 }
 `
@@ -32,8 +36,9 @@ margin: 15px;
 
 @media screen and (max-width: 768px) {
     width: 85vw;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
+
 `
 export const H2 = styled.h1`
 width: 500px;
@@ -41,11 +46,16 @@ font-size: 1.1rem;
 text-align: left;
 margin: 15px;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 359px) {
+    width: 85vw;
+    font-size: 1rem;
+    text-align: left;
+}
+
+@media screen and (min-width:360px) and (max-width: 768px) {
     width: 85vw;
     font-size: 1.2rem;
     text-align: left;
-    margin-bottom: 50px;
 }
 `
 export const Span = styled.span`
@@ -53,7 +63,11 @@ color: rgba(101,184,145,1);
 text-shadow: #000000 3px 2px 1px;
 font-size: 3rem;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 359px) {
+    font-size: 1.4rem;
+}
+
+@media screen and (min-width:360px) and (max-width: 768px) {
     font-size: 1.7rem;
 }
 `
@@ -70,11 +84,16 @@ background: linear-gradient(209deg, rgba(78,135,140,1) 0%, rgba(101,184,145,1) 5
 
 @media screen and (max-width: 768px) {
     width: 100%;
-    margin: 50px 0 0 0;
+    margin: 20px  0;
 }
 `
 export const Img = styled.img`
 width:25px;
+
+@media screen and (max-width:768px) {
+    width: 20px;
+    height: 40px;
+}
 `
 export const ImgFoto = styled.img`
 width: 300px;
@@ -88,12 +107,18 @@ box-shadow: 0 0 20px 20px rgba(181,255,225,1);
 `
 export const ImgMob = styled.img`
 display: none;
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 359px) {
     display: initial;
-    width: 200px;
-    margin: 0 50px;
+    width: 160px;
+    margin: 30px 0;
     border-radius: 50%;
     box-shadow: 0 0 20px 20px rgba(181,255,225,1);
 }
-
+@media screen and (min-width:360px) and (max-width: 768px) {
+    display: initial;
+    width: 200px;
+    margin: 30px 0;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 20px rgba(181,255,225,1);
+}
 `

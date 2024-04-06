@@ -39,7 +39,7 @@ function Inicio() {
       </S.Div>
       <S.ImgFoto src={Foto} alt="Foto da Desenvolvedora do Portfólio" />
     </S.Section>
-  );
+  )
 }
 
 export default Inicio;
