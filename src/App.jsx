@@ -9,7 +9,6 @@ const GlobalStyle = createGlobalStyle`
   padding: 0;
   text-decoration: none;
   font-family: 'Open Sans';
-}
 `
 
 function App() {

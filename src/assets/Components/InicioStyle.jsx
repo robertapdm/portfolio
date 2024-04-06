@@ -47,32 +47,29 @@ text-align: left;
 margin: 15px;
 `
 export const Span = styled.span`
-color: #BAFF66;
+color: rgba(101,184,145,1);
 text-shadow: #000000 3px 2px 1px;
 font-size: 3rem;
 `
-export const DivButton = styled.div`
+export const Social = styled.div`
 width: 500px;
 height: 50px;
 display: flex;
 justify-content: space-evenly;
-align-items: flex-start;
+align-items: center;
 margin: 25px;
+border-radius: 20px;
+background: rgb(78,135,140);
+background: linear-gradient(209deg, rgba(78,135,140,1) 0%, rgba(101,184,145,1) 50%, rgba(181,255,225,1) 100%);
 `
-export const Button = styled.button`
-width: 200px;
-height: 35px;
-background-color: #baff66;
-color: #30374E;
-box-shadow: #000000 0 0 8px;
-font-weight: 800;
-border-radius: 10px;
+export const Img = styled.img`
+width:25px
 `
 export const ImgFoto = styled.img`
 width: 300px;
 border-radius: 50%;
 margin-right: 100px;
-box-shadow: 0 0 20px 20px #baff66;
+box-shadow: 0 0 20px 20px rgba(181,255,225,1);
 `
 export const ImgFooter = styled.img`
 width: 100%;

@@ -5,7 +5,7 @@ import Projetos from './Projetos'
 import Contatos from './Contatos'
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
 import * as S from './NavegacaoStyle'
-import Logo from './images/inicio/logo.png'
+import Logo from './images/inicio/logo.svg'
 
 function Navegacao(){
 
