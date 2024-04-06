@@ -8,9 +8,16 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+
+@media screen and (max-width:768px){
+    height: 45vh;
+}
 `
 export const H2 = styled.h2`
-margin: 0 0 25px 0;
+margin: 25px 0 0 0;
+@media screen and (max-width:768px){
+ margin: 0;
+}
 `
 export const Div = styled.div`
 width: 100%;
@@ -19,6 +26,10 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-bottom: 50px;
+
+@media screen and (max-width:768px){
+    height: 30vh;
+}
 `
 export const Card = styled.div`
 width: 60%;
@@ -28,10 +39,12 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 `
-export const DivP = styled.div`
-width: 50%;
-max-width: 20%;
-margin: 0 0 0 50px;
+export const ImgCard = styled.img`
+width: 100%;
+
+@media screen and (max-width:768px){
+    width: 90vw;
+}
 `
 export const Projetos = styled.div`
 width: 100%;
@@ -44,9 +57,8 @@ overflow-x: scroll;
 export const Img = styled.img`
 width: 200px;
 height: 100%;
-`
-export const ImgFooter = styled.img`
-width: 100%;
-height: 150px;
-object-fit: fill;
+@media screen and (max-width:768px){
+    width: 90vw;
+    height: 130px;
+}
 `

@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import * as S from './ProjetosStyle'
-import Footer from './images/inicio/barra-site.png'
 import Cartoon from './images/projetos/cartoon.svg'
 import Disney from './images/projetos/disney.svg'
 import Witcher from './images/projetos/thewitcher.svg'
@@ -12,7 +11,7 @@ function Projetos(){
 
     const [imagem, setImagem] = useState(Cartoon)
 
-    const [sites, setSites] = useState(
+    const desafios = [
         {
             id: 1,
             nome: 'Cartoon', 
@@ -28,9 +27,9 @@ function Projetos(){
             id: 3,
             nome: 'Disney Plus', 
             descricao: 'Projeto Disney Plus - landing page feita utilizando as tecnologias HTML e CSS, criada com objetivo de praticar os conceitos de caixas flexiveis utilizando o display:flex.',
-            imagem:{Witcher}
+            imagem:{Disney}
          }
-    )
+    ]
 
      return(
         <>
@@ -38,7 +37,7 @@ function Projetos(){
         <S.H2>Meus Projetos</S.H2>
             <S.Div className="container">
                     <S.Card className="card-principal">
-                    <img src={imagem} alt="Foto da tela do site" />
+                    <S.ImgCard src={imagem} alt="Foto da tela do site" />
                 </S.Card>
             </S.Div>
         </S.Section>
@@ -54,9 +53,6 @@ function Projetos(){
       }} src={DoceArte} alt="Foto da tela do site" />
       <S.Img onClick={()=>{setImagem(Contador)}} src={Contador} alt="Foto da tela do site" />
       </S.Projetos>
-        <footer>
-            <S.ImgFooter src={Footer} alt="" />
-            </footer>
         </>
     )
 }

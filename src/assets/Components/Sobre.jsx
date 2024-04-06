@@ -1,6 +1,5 @@
 import React from "react";
 import * as S from './SobreStyle'
-import Footer from './images/inicio/barra-site.png'
 import Html from './images/sobre/html.svg'
 import Css from './images/sobre/css.svg'
 import Js from './images/sobre/javascript.svg'
@@ -58,9 +57,6 @@ function Sobre(){
                     <S.Card><S.Img3 src={Figma} alt="Logo do Figma" /></S.Card>
                 </S.Section3>
         </S.Section>
-            <footer>
-            <S.ImgFooter src={Footer} alt="" />
-            </footer>
         </>
     )
 }

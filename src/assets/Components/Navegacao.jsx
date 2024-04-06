@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Inicio from './Inicio'
 import Sobre from './Sobre'
 import Projetos from './Projetos'
@@ -6,6 +6,7 @@ import Contatos from './Contatos'
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
 import * as S from './NavegacaoStyle'
 import Logo from './images/inicio/logo.svg'
+import MenuAbrir from './images/sobre/menu.svg'
 
 function Navegacao(){
 
@@ -19,6 +20,7 @@ function Navegacao(){
                 <li> <Link to= "/Projetos">Projetos</Link></li>
                 <li> <Link to= "/Contatos">Contatos</Link></li>
             </S.Ul>
+            <S.Menu src={MenuAbrir} alt="" />
         </S.Nav>
         <Routes>
             <Route path="/" element={<Inicio/>} />
