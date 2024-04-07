@@ -73,7 +73,12 @@ align-items: center;
 
 @media screen and (max-width:359px) {
     width: 90vw;
+    justify-content: space-evenly;
+}
 
+@media screen and (min-width:360px) and (max-width:768px) {
+    width: 79vw;
+    justify-content: space-evenly;
 }
 `
 export const Card = styled.div`

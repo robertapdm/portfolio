@@ -15,8 +15,9 @@ align-items: center;
 `
 export const H2 = styled.h2`
 margin: 25px 0 0 0;
+
 @media screen and (max-width:768px){
- margin: 0;
+ margin: 10px 0;
 }
 `
 export const Div = styled.div`
@@ -47,7 +48,7 @@ width: 100%;
 }
 `
 export const Projetos = styled.div`
-width: 100%;
+width: 100vw;
 height: 20vh;
 display: flex;
 justify-content: space-evenly;
@@ -57,8 +58,9 @@ overflow-x: scroll;
 export const Img = styled.img`
 width: 200px;
 height: 100%;
+
 @media screen and (max-width:768px){
-    width: 90vw;
-    height: 130px;
+    width: 50vw;
+    height: 70px;
 }
 `
