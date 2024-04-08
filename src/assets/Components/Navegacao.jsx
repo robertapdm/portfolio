@@ -20,7 +20,6 @@ function Navegacao(){
                 <li> <Link to= "/Projetos">Projetos</Link></li>
                 <li> <Link to= "/Contatos">Contatos</Link></li>
             </S.Ul>
-            <S.Menu src={MenuAbrir} alt="" />
         </S.Nav>
         <Routes>
             <Route path="/" element={<Inicio/>} />
