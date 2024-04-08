@@ -6,6 +6,7 @@ height: 80vh;
 display: flex;
 margin: 0 20%;
 border: 2px solid #65b8917f;
+position: relative;
 
 @media screen and (max-width:768px){
     width: 100%;
@@ -76,6 +77,8 @@ margin: 0;
 export const Input = styled.input`
 width: 85%;
 margin: 10px 0;
+border: 1px solid #818181;
+border-radius: 5px;
 
 @media screen and (max-width:768px){
     width: 70vw;
@@ -102,5 +105,29 @@ margin: 20px 0;
 
 @media screen and (max-width:768px){
     width: 70vw;
+}
+`
+export const Btn = styled.input`
+width: 10%;
+margin: 10px 0;
+border: 1px solid #818181;
+border-radius: 5px;
+background-color: #b2d7da;
+color: #000000;
+font-weight: 600;
+position: absolute;
+top: 410px;
+right: 139px;
+cursor: pointer;
+
+@media screen and (max-width:359px) {
+    width: 25%;
+    top: 870px;
+    right: 110px;
+}
+
+@media screen and (min-width:360px) and (max-width:678px) {
+    width: 25%;
+    top: 870px;
 }
 `

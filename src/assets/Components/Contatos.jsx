@@ -30,6 +30,7 @@ function Contatos(){
         <S.H3>Deixe o seu comentário aqui:</S.H3>
             <S.Textarea name="mensagem" id="mensagem" cols="50" rows="6" maxLength={500}></S.Textarea>
         </S.Div1>
+        <S.Btn type="button" value="Enviar" />
         </S.Form>
         </S.Section>
         </>

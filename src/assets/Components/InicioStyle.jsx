@@ -34,11 +34,17 @@ font-size: 2rem;
 text-align: left;
 margin: 15px;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 359px) {
     width: 85vw;
     font-size: 1.2rem;
+    margin-top: 100px;
 }
 
+@media screen and (min-width:360px) and (max-width: 768px) {
+    width: 85vw;
+    font-size: 1.2rem;
+    margin-top: 50px;
+}
 `
 export const H2 = styled.h1`
 width: 500px;
@@ -50,12 +56,14 @@ margin: 15px;
     width: 85vw;
     font-size: 1rem;
     text-align: left;
+    margin-bottom: 30px;
 }
 
 @media screen and (min-width:360px) and (max-width: 768px) {
     width: 85vw;
     font-size: 1.2rem;
     text-align: left;
+    margin-bottom: 50px;
 }
 `
 export const Span = styled.span`
