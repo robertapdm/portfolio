@@ -107,27 +107,27 @@ margin: 20px 0;
     width: 70vw;
 }
 `
+export const Div2 = styled.div`
+width: 86%;
+height: 100%;
+display: flex;
+justify-content: flex-end;
+
+@media screen and (max-width:359px){
+width: 110%;
+}
+
+@media screen and (min-width:360px) and (max-width:768px){
+width: 100%;
+}
+`
 export const Btn = styled.input`
-width: 10%;
+width: 20%;
 margin: 10px 0;
 border: 1px solid #818181;
 border-radius: 5px;
 background-color: #b2d7da;
 color: #000000;
 font-weight: 600;
-position: absolute;
-top: 410px;
-right: 139px;
 cursor: pointer;
-
-@media screen and (max-width:359px) {
-    width: 25%;
-    top: 870px;
-    right: 110px;
-}
-
-@media screen and (min-width:360px) and (max-width:678px) {
-    width: 25%;
-    top: 870px;
-}
 `
